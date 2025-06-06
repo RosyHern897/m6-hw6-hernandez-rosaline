@@ -5,34 +5,93 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
+  font-family: 'Dancing Script', cursive;
+  background-image: url('pattern.png');
+  background-repeat: repeat;
   color: #333;
-  padding: 20px;
 }
 
 header {
-  background-color: #b99100;
-  color: white;
+  background-color: #f4c542; /* light yellow */
   padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-size: 36px;
 }
 
 nav ul {
-  list-style: none;
   display: flex;
-  gap: 15px;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
   margin-top: 10px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 40px;
+}
+
+.about {
+  background-color: white;
+  padding: 20px;
+  max-width: 700px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #f4c542;
+}
+
+.about-content p {
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.profile-pic {
+  float: left;
+  width: 140px;
+  height: auto;
+  margin: 0 20px 20px 0;
+  border-radius: 10px;
+}
+
+.sidebar {
+  background-color: white;
+  padding: 20px;
+  min-width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  height: fit-content;
+}
+
+.sidebar h3 {
+  margin-bottom: 15px;
+  color: #f4c542;
+}
+
+.icons a img {
+  width: 32px;
+  margin: 5px;
 }
 
 footer {
-  margin-top: 40px;
+  background-color: #f4c542;
+  color: white;
   text-align: center;
-  color: gray;
+  padding: 15px;
+  margin-top: 40px;
 }
-
